@@ -1,0 +1,80 @@
+body{
+
+    background-color: rgb(25, 143, 143);
+}
+#task-input{
+
+   padding: 13px; 
+   border-radius: 1rem;
+   font-size: 15px;
+   background-color: rgb(236, 227, 227);
+   margin-left: 3rem;
+
+}
+#add{
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: aqua;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    
+}
+ 
+/* Style for the Add Task button */
+#add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style for the Remove task button */
+.task-list button {
+    background-color: hsl(0, 0%, 54%);
+    color: rgb(248, 241, 241);
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Add some basic styling for the task list */
+#task-list li {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #c9b5b5;
+    border: 1px solid #bb0d0d;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#clear-button{
+
+    background-color: hsl(0, 0%, 54%);
+    color: rgb(27, 248, 82);
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: none; 
+}
