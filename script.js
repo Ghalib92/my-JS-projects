@@ -18,6 +18,7 @@ function loadTasks(){
     function saveTasks(){
 localStorage.setItem('tasks', JSON.stringify(tasks));
 
+
     }
 
 
@@ -77,7 +78,7 @@ taskInput.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
         addTask();
     }
-});
+}); 
 function clearTasks(){
     tasks = [];
     displayTasks();
