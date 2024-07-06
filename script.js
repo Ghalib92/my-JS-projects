@@ -41,7 +41,7 @@ function displayTasks(){
     const li = document.createElement('li');
     li.textContent = task;
     const dateAdded = document.createElement('date');
-    dateAdded.textContent = 'Date Added: ' +  new Date().toLocaleDateString();
+    dateAdded.textContent = 'Date: ' +  new Date().toLocaleDateString();
      const removeButton = document.createElement('button');
      removeButton.textContent =   '  Remove task';
       removeButton.addEventListener('click',()=>{
